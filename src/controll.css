@@ -1,0 +1,68 @@
+.first-route{
+    background-color: rgb(255, 212, 254);
+    color: blueviolet;
+    width: 200px;
+
+    margin-top: 120px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #8c37fb;
+
+    position: absolute;
+
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.second-route{
+    background-color: rgb(255, 212, 254);
+    color: blueviolet;
+    width: 200px;
+
+    margin-top: 170px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #8c37fb;
+
+    position: absolute;
+
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.third-route{
+    background-color: rgb(255, 212, 254);
+    color: blueviolet;
+    width: 200px;
+
+    margin-top: 220px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #8c37fb;
+
+    position: absolute;
+
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.speed{
+    color: blueviolet;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.fuel{
+    color: blueviolet;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 80px;
+}
+

@@ -44,3 +44,12 @@ int main()
         
     return 0;
 }
+
+let lin1= document.getElementById("2-4")
+    lin1.classList.add("cyan");
+    let lin2= document.getElementById("3-3");
+    lin2.classList.add("cyan");
+    let lin3= document.getElementById("4-3");
+    lin3.classList.add("cyan");
+    let lin4= document.getElementById("5-3");
+    linii_cyan.push(lin1,lin2,lin3,lin4);

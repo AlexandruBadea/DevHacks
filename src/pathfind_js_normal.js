@@ -53,3 +53,5 @@ var finder = new PF.AStarFinder();
 
 console.log(finder.findPath(1, 2, 4, 2, grid));
 
+sgm=document.getElementById("segment");
+sgm.style.backgroundColor="red"; 

@@ -1,9 +1,15 @@
+
 .my_box{
-  background-color: #292929;
+  background-image: url(./img/devhacks.png);
+  background-size: contain ;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(-90deg);
   width: 100px;
   height: 100px;
   border-radius: 5%;
   position: absolute;
+  z-index: 20;
   
 }
 
@@ -39,6 +45,7 @@
   margin-left: 30%;
   border-radius: 50%;
   position: relative;
+  z-index: 11;
 }
 
 .road-round2{
@@ -75,11 +82,15 @@ position: absolute;
     grid-template-rows: repeat(7, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    background-image: url('./img/iarba_3.jpg');
+    ;
     
 }
 
 .tbd{
   background-color: #0f620f;
+  
+  opacity: 0.0;
   width: 100%;
   height: 100%;
   border-radius: 0;
@@ -87,7 +98,11 @@ position: absolute;
 }
 
 .CLADIRE{
-  background-color: #ab97c4;
+  background-color: #fcedff;
+  background-image: url('./img/harman.png');
+  background-size: contain ;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100%;
   border-radius: 5%;
@@ -111,8 +126,33 @@ position: absolute;
 }
 
 .CLADIREE{
-  background-color: #766141;
+  background-color: #c6e9fd;
+  background-image: url('./img/home.png');
+  background-size: contain ;
+  background-repeat: no-repeat;
+  background-position: center;
+  
   width: 100%;
   height: 100%;
   border-radius: 5%;
+}
+
+#s2-2{
+  grid-column: 2;
+  grid-row: 2;
+  
+  width: 150%;
+  height: 30px;
+  
+  border-radius: 0%;
+}
+
+.btn-start{
+  position: absolute;
+  z-index: 10;
+}
+
+.GAS{
+  background-color: #f2edd9;
+  background-image: url('./img/gas_station.png');
 }
