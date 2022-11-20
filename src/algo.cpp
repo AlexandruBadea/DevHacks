@@ -11,7 +11,7 @@ int main()
             cin>>x[i][j];
     cout<<endl<<endl;
     
-    int start[2] = {5, 2};
+    int start[2] = {5, 2};[]
     int finish1[2] = {1, 0};
     int finish2[2] = {1, 4};
     

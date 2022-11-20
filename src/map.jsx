@@ -13,6 +13,7 @@ class HelloWorld extends React.Component {
         <VerticalRoad/>
         
         <Round/>  */}
+        
         <div className='grid-layout'>
           <div className='control-center'>
             <div className='control-center__header'>
@@ -24,41 +25,44 @@ class HelloWorld extends React.Component {
           <div className='map map-layout'>
             <div className='tbd grid-1-1'></div>
             <div className='tbd grid-1-2'></div>
-            <VerticalRoad className='grid-1-3'/>
+            <div className='road-vertical grid-1-3'></div>
             <div className='tbd grid-1-4'></div>
             <div className='tbd grid-1-5'></div>
             <div className='tbd grid-1-6'></div>
             <div className='CLADIRE grid-2-1'></div>
-            <HorisontalRoad className='grid-2-2'/>
-            <div className='INTERSECTIE grid-2-3'></div>
-            <HorisontalRoad className='grid-2-4'/>
+            <div className='road-orizontal grid-2-2'></div>
+            {/* <div className='INTERSECTIE grid-2-3'></div> */}
+            <div className='road-orizontal grid-2-4'></div>
             <div className='CLADIRE grid-2-5'></div>
-            <VerticalRoad className='grid-3-1' />
+            <div className='tbd grid-2-6'></div>
+            <div className='road-vertical grid-3-1'></div>
             <div className='tbd grid-3-2'></div>
-            <VerticalRoad className='grid-3-3' />
+            <div className='road-vertical grid-3-3'></div>
             <div className='tbd grid-3-4'></div>
-            <VerticalRoad className='grid-3-5' />
+            <div className='road-vertical grid-3-5'></div>
             <div className='tbd grid-3-6'></div>
-            <div className='INTERSECTIE-3 grid-4-1'></div>
-            <HorisontalRoad className='grid-4-2' />
-            <Round className='grid-4-3' />
-            <HorisontalRoad className='grid-4-4' />
-            <div className='INTERSECTIE grid-4-5'></div>
-            <VerticalRoad className='grid-5-1' />
+            {/* <div className='INTERSECTIE-3 grid-4-1'></div> */}
+            <div className='road-orizontal grid-4-2'></div>
+            <div className='road-round grid-4-3'>
+              <div className='road-round2'></div>
+            </div>
+            <div className='road-orizontal grid-4-4'></div>
+            {/* <div className='INTERSECTIE grid-4-5'></div> */}
+            <div className='road-orizontal grid-4-6'></div>
+            <div className='road-vertical grid-5-1'></div>
             <div className='tbd grid-5-2'></div>
-            <VerticalRoad className='grid-5-3' />
+            <div className='road-vertical grid-5-3'></div>
             <div className='tbd grid-5-4'></div>
-            <VerticalRoad className='grid-5-5' />
+            <div className='road-vertical grid-5-5'></div>
             <div className='tbd grid-5-6'></div>
-            <VerticalRoad className='grid-6-1' />
+            <div className='road-vertical grid-6-1'></div>
             <div className='tbd grid-6-2'></div>
             <div className='CLADIREE grid-6-3'></div>
-            <HorisontalRoad className='grid-6-4' />
-            <div className='INTERSECTIE-3 grid-6-5'></div>
-            <HorisontalRoad className='grid-6-6' />
-            <VerticalRoad className='grid-7-1' />
+            <div className='road-orizontal grid-6-4'></div>
+            <div className='road-orizontal grid-6-6'></div>
+            <div className='road-vertical grid-7-1' ></div>
             <div className='tbd grid-7-2'></div>
-            <VerticalRoad className='grid-7-3' />
+            <div className='road-vertical grid-7-3'></div>
             <div className='tbd grid-7-4'></div>
             <div className='tbd grid-7-5' ></div>
             <div className='tbd grid-7-6'></div>

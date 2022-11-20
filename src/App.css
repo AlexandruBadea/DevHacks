@@ -3,29 +3,29 @@
   width: 100px;
   height: 100px;
   border-radius: 5%;
+  position: absolute;
   
 }
 
 
 .road-orizontal{
-  background-color: #eaff02;
-  width: 50px;
-  height: 10vh;
-  position: absolute;
+  background-color: #292929;
+  width: 100%;
+  height: 30px;
+  position: relative;
   margin-top:20%;
   
 }
 
 
 .road-vertical{
-  background-color: #00ff04;
-  width: 5vw;
-  height: 50px;
+  background-color: #292929;
+  width: 30px;
+  height: 100%;
   position: relative;
-  
+
   margin-left: 50%;
 
-  
 }
 
 .padding-10px{
@@ -36,8 +36,22 @@
   background-color: #292929;
   width: 100px;
   height: 100px;
+  margin-left: 30%;
   border-radius: 50%;
   position: relative;
+}
+
+.road-round2{
+  background-color: #ffffff;
+  width: 70px;
+  height: 70px;
+  
+  margin-left: 15%;
+  margin-top: 15%;
+
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
 }
 
 .grid-layout{
@@ -46,7 +60,8 @@
  grid-template-rows: 1fr;
  grid-column-gap: 0px;
  grid-row-gap: 0px;
-  
+z-index: 0;
+position: absolute;
 }
 
 .control-center{
@@ -64,10 +79,11 @@
 }
 
 .tbd{
-  background-color: #ff0b0b;
+  background-color: #0f620f;
   width: 100%;
   height: 100%;
-  border-radius: 5%;
+  border-radius: 0;
+  
 }
 
 .CLADIRE{
@@ -78,9 +94,7 @@
 }
 .INTERSECTIE{
   background-color: #ff00cc;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
+  
 }
 .PARCARE{
   background-color: #1e00ff;
@@ -91,6 +105,13 @@
 
 .INTERSECTIE-3 {
   background-color: #00d9ff;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.CLADIREE{
+  background-color: #766141;
   width: 100%;
   height: 100%;
   border-radius: 5%;
