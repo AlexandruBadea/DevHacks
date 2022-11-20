@@ -1,39 +1,28 @@
 import * as React from "react";
 import { motion } from "framer-motion";
+import HelloWorld from "./map";
+
+//import Round from "./map_elements/round";
 
 import './App.css';
-
-// move div to the right
-
+let arrX = [0,100,250,340,0];
+let arry= [0,100,20,550,0];
 
 function App() {
-  return (
-
-    // div moves to the right
-    <motion.div
-      initial={{ x: 0 }}
-      animate={{ x: 100 }}
-      transition={{ duration: 2 }}
-    >
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    </motion.div>
-
+    return (
+      <>
+        
+        <HelloWorld  />
+        
+      </>
   );
-}
-
+  
+    }
+    
 export default App;
 
+{/* <motion.div
+          animate={{ x: arrX, y: arry }}
+          transition={{ duration: 5, delay: 0.5, transition: "easeInOut", repeat: Infinity, repeatType: "reverse" }}>
+        <div className="my_box"></div>
+        </motion.div> */}

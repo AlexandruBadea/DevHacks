@@ -3,4 +3,95 @@
   width: 100px;
   height: 100px;
   border-radius: 5%;
+  
+}
+
+
+.road-orizontal{
+  background-color: #eaff02;
+  width: 50px;
+  height: 10vh;
+  position: absolute;
+  margin-top:20%;
+  
+}
+
+
+.road-vertical{
+  background-color: #00ff04;
+  width: 5vw;
+  height: 50px;
+  position: relative;
+  
+  margin-left: 50%;
+
+  
+}
+
+.padding-10px{
+  padding: 10px;
+}
+
+.road-round{
+  background-color: #292929;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.grid-layout{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+ grid-template-rows: 1fr;
+ grid-column-gap: 0px;
+ grid-row-gap: 0px;
+  
+}
+
+.control-center{
+  grid-column: 0;
+  color: blueviolet;
+}
+
+.map{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+}
+
+.tbd{
+  background-color: #ff0b0b;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.CLADIRE{
+  background-color: #ab97c4;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+.INTERSECTIE{
+  background-color: #ff00cc;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+.PARCARE{
+  background-color: #1e00ff;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.INTERSECTIE-3 {
+  background-color: #00d9ff;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
 }
